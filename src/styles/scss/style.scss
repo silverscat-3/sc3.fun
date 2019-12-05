@@ -1,0 +1,52 @@
+@import "headings.scss";
+
+html, body {
+    background-color: #D4D0C8;
+
+    border-width: 1px;
+    border-style:outset;
+}
+
+hr {
+    background-color: #646464;
+    height: 2px;
+}
+
+main {
+    padding: 1em;
+}
+
+#site-title {
+    size: 1em;
+    font-weight: 700;
+
+    a {
+        color: #FFF;
+        text-decoration:none;
+    }
+    a:hover {
+        color:#A0A0A0;
+    }
+}
+
+.header {
+    padding: 0.3em;
+    
+    background: -moz-linear-gradient(right, #0B256B, #ACCBEB);
+    background: -webkit-linear-gradient(right, #0B256B, #ACCBEB);
+    background: linear-gradient(to right, #0B256B, #ACCBEB);
+}
+
+.content {
+    height: auto;
+}
+
+.main-menu {
+    margin-top: 1em;
+    padding: 1em;
+
+    background-color: #FFFFFF;
+
+    border-width: 1px;
+    border-style:inset;
+}

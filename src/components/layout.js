@@ -1,29 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../styles/scss/style.scss"
+
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    const { title, children } = this.props
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1>
-          <Link to={`/`}>{title}</Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3>
-          <Link to={`/`}>{title}</Link>
-        </h3>
-      )
-    }
     return (
       <div>
-        <header>{header}</header>
-        <main>{children}</main>
+        <header className="header"><span id="site-title"><Link to={`/`}>{title}</Link></span></header>
+        <main className="content">{children}</main>
       </div>
     )
   }

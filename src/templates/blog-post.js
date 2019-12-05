@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "../styles/scss/blog.scss"
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -16,12 +18,12 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
-          <header>
+        <article class="blog">
+          <header class="blog-header">
             <h1>{post.frontmatter.title}</h1>
             <p>{post.frontmatter.date}</p>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <section class="blog-content" dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
         </article>
 
