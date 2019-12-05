@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `sc3.fun`,
     author: `銀猫さん`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `銀猫さんの北半球で一番くだらないサイト`,
     siteUrl: `https://sc3.fun`,
   },
   plugins: [
