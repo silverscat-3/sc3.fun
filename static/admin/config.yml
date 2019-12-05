@@ -7,6 +7,10 @@ public_folder: /img
 
 publish_mode: editorial_workflow
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 collections:
     - name: "blog"
       label: "Blog"
@@ -19,4 +23,5 @@ collections:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
+        - { label: "Slug", name: "slug", widget: "string" }
         - { label: "Body", name: "body", widget: "markdown" }
