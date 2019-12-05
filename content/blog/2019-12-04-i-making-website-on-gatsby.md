@@ -6,7 +6,7 @@ slug: i-making-website-on-gatsby
 ---
 現在ブログをGatsbyでイケイケにしています。昔のpugとgulpで無理矢理やっていた時代とは大違いです。
 
-![](/img/before-sc3.png "昔のブログ")
+![](/img/before-sc3.webp "昔のブログ")
 
 ## 本当はReact-Staticでやりたかった
 本当はGatsbyよりシンプルなReact-Staticでやりたかったのですが、今一つうまくいきませんでした。面倒事は嫌いなので、NetlifyCMSが公式で対応しているGatsbyを使うことにしました。
