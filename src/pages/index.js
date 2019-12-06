@@ -17,8 +17,10 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         <h1>銀猫さん</h1>
         <p>現在サイトを大幅に改装しています。完成までにはおそらく時間がかかるのでもう少しお待ちください。</p>
-        <div className="main-menu">
-          <h2>ブログ</h2>
+        <hr />
+
+        <h2>ブログ</h2>
+        <div className="blog-list">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

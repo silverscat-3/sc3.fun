@@ -8,8 +8,15 @@ class Layout extends React.Component {
     const { title, children } = this.props
 
     return (
-      <div>
-        <header className="header"><span id="site-title"><Link to={`/`}>{title}</Link></span></header>
+      <div className="root">
+        <header className="header">
+          <div className="title-bar">
+            <span id="site-title"><Link to={`/`}>{title}</Link></span>
+          </div>
+          <div className="menu-bar">
+
+          </div>
+        </header>
         <main className="content">{children}</main>
       </div>
     )

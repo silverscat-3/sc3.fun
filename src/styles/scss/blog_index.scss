@@ -1,5 +1,18 @@
+.blog-list {
+    padding: 1em;
+
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    background-color: #FFFFFF;
+
+    border-width: 1px;
+    border-style: inset;
+}
+
 .blog-item {
-    margin-left: 1em;
 }
 
 .blog-item-header {
