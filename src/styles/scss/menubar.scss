@@ -1,0 +1,29 @@
+.menu-bar {
+    height: 1.6em;
+
+    ul {
+        border-width: 1px;
+        border-style: outset;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    li {
+        padding: 0.3em;
+
+        a {
+            size: 1em;
+
+            display: block;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    li:active {
+        border-width: 1px;
+        border-style: inset;
+        box-sizing: border-box;
+    }
+}
