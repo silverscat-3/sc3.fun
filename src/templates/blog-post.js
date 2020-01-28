@@ -23,10 +23,28 @@ class BlogPostTemplate extends React.Component {
             <h1>{post.frontmatter.title}</h1>
             <p>{post.frontmatter.date}</p>
           </header>
+
           <hr />
+
           <div className="blog-content">
             <section dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
+
+	  <hr />
+
+	  <footer className="blog-footer">
+	    <nav>
+	      <ul>
+	        {previous && (
+			<li><Link to={previous.fields.slug} rel="prev">← {previous.frontmatter.title}</Link></li>
+		)}
+	        <li><Link to={"/articles"}>ブログ一覧へ戻る</Link></li>
+	        {next && (
+			<li><Link to={next.fields.slug} rel="prev">{next.frontmatter.title} →</Link></li>
+		)}
+	      </ul>
+	    </nav>
+	  </footer>
         </article>
       </Layout>
     )

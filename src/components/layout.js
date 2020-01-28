@@ -13,11 +13,11 @@ class Layout extends React.Component {
           <div className="title-bar">
             <span id="site-title"><Link to={`/`}>{title}</Link></span>
           </div>
-          <div className="menu-bar">
-
-          </div>
         </header>
         <main className="content">{children}</main>
+	<footer className="footer">
+	   <p>Copyright (c) 2019 silverscat_3</p>
+	</footer>
       </div>
     )
   }
