@@ -18,7 +18,6 @@ class BlogIndex extends React.Component {
         <p>現在サイトを大幅に改装しています。完成までにはおそらく時間がかかるのでもう少しお待ちください。</p>
         <hr />
 
-        <Link to={`/articles`}><h2>ブログ</h2></Link>
       </Layout>
     )
   }

@@ -21,29 +21,20 @@ blockquote {
     padding-left: 1em;
 }
 
-.root {
-}
-
 #site-title {
     size: 1em;
     font-weight: 700;
-
-    a {
-        color: #FFF;
-        text-decoration:none;
-    }
-    a:hover {
-        color:#A0A0A0;
-    }
+    color: #FFF;
 }
 
 .header {
-    padding: 0.3em;
-    box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
+}
 
+.title-bar {
+    padding: 0.3em;
+    
     background: -moz-linear-gradient(right, #0B256B, #ACCBEB);
     background: -webkit-linear-gradient(right, #0B256B, #ACCBEB);
     background: linear-gradient(to right, #0B256B, #ACCBEB);
@@ -57,7 +48,7 @@ blockquote {
 .content {
     overflow-y: scroll;
     box-sizing: border-box;
-    height: calc(100vh - (1.6em * 2 ) - 2px);
+    height: calc(100vh - (1.6em * 3 ) - 2px);
 
     padding: 1em;
 
