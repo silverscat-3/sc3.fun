@@ -14,8 +14,8 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="北半球でいちばんくだらないWebサイト" />
-        <h1>銀猫さん</h1>
-        <p>現在サイトを大幅に改装しています。完成までにはおそらく時間がかかるのでもう少しお待ちください。</p>
+        <h1>銀猫さんのWebサイト</h1>
+        <p>ようこそ、銀猫さんの<span style={{ textDecoration: 'line-through' }}>ホームページ</span>Webサイトへ!</p>
         <hr />
 
       </Layout>

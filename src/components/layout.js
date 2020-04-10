@@ -19,13 +19,14 @@ class Layout extends React.Component {
               <li><Link to={'/'}>ホーム</Link></li>
               <li><Link to={'/articles'}>ブログ</Link></li>
               <li><Link to={'/profile'}>プロフィール</Link></li>
+              <li><Link to={'/faq'}>FAQ</Link></li>
             </ul>
           </nav>
         </header>
         <main className="content">{children}</main>
-	<footer className="footer">
-	   <p>Copyright (c) 2019 silverscat_3</p>
-	</footer>
+	      <footer className="footer">
+	        <p>Copyright (c) 2019 silverscat_3</p>
+	      </footer>
       </div>
     )
   }

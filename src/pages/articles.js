@@ -16,7 +16,7 @@ class ArticlesPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <h1>ブログ</h1>
-	<p></p>
+        <hr />
 	<div className="blog-list">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
