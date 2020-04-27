@@ -16,22 +16,22 @@ slug: i-think-this-is-probably-the-cheapest-way-to-do-vrc
 ## ステップ1 HMDを作る
 まずはスマホをチョメチョメしてHMDに仕立て上げましょう。まず「スマホでVR体験!」みたいな事を謳っているVRグラスを買いましょう。最悪ダイソーで500円で買えます。
 
-https://www.amazon.co.jp/dp/B081NBDL6G/
-https://www.amazon.co.jp/dp/B07ZVMRD9H/
-https://www.amazon.co.jp/dp/B077YXDVR3l/
+https://www.amazon.co.jp/dp/B081NBDL6G/<br>
+https://www.amazon.co.jp/dp/B07ZVMRD9H/<br>
+https://www.amazon.co.jp/dp/B077YXDVR3l/<br>
 
 こんなのを買ってきましょう。
 
 次に**iVRy**か**TrinusVR**というアプリを入れます。
 
-https://play.google.com/store/apps/details?id=com.mediator_software.ivry
-https://play.google.com/store/apps/details?id=com.loxai.trinusvr
+https://play.google.com/store/apps/details?id=com.mediator_software.ivry<br>
+https://play.google.com/store/apps/details?id=com.loxai.trinusvr<br>
 
 どちらも1000円前後くらいです。とりあえずここではiVRy使います。
 
 あとはSteamでもiVRyをインストールします。
 
-https://store.steampowered.com/app/992490/iVRy_Driver_for_SteamVR/
+https://store.steampowered.com/app/992490/iVRy_Driver_for_SteamVR/<br>
 
 ちなみにSteam方でiVRyを買うとヒドい目に遭います。具体的に言うと課金が適用されません。なんでやねん! (もしかしたら環境依存かもしれない) GooglePlayの方で課金しましょう。
 
@@ -44,10 +44,10 @@ https://store.steampowered.com/app/992490/iVRy_Driver_for_SteamVR/
 ## ステップ2 コントローラーをなんとかする
 さて、ステップ1で作ったHMDを使って早速VRChatをしましょう。初心者交流会のようなイベントに参加して、自分が一体どういう環境でプレイしてるのかを話すと若干盛りあがります。
 
-「首しか動かせない…」
-「デスクトップ勢なんですか?」
-「いや、スマホをHMDにして参加してます」
-「は???????????」
+「首しか動かせない…」<br>
+「デスクトップ勢なんですか?」<br>
+「いや、スマホをHMDにして参加してます」<br>
+「は???????????」<br>
 
 みたいな会話を一通り楽しんだら腕が動かないのをなんとかしましょう。寂しいですしね。
 
