@@ -25,7 +25,7 @@ class Layout extends React.Component {
         </header>
         <main className="content">{children}</main>
 	      <footer className="footer">
-	        <p>Copyright (c) 2019 silverscat_3</p>
+	        <p style={{ margin: 0 }}>Copyright (c) 2019 silverscat_3</p>
 	      </footer>
       </div>
     )

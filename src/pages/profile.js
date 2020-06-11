@@ -40,6 +40,11 @@ class ProfilePage extends React.Component {
 
                 <h3><a href="https://www.youtube.com/channel/UCdgnFJA5troFILCkgwG6wzg">Youtubeチャンネル</a></h3>
                 <p>クソ動画置き場。</p>
+
+                <br />
+
+                <p>ぶっちゃけ、SNSアカウント作り過ぎた節があるんで、これ以外にも把握できていない垢があるかもです。</p>
+                <p>そういった垢に関しては、(放置プレイしてるので) 存在しないということでお願いします。</p>
             </Layout>
         )
     }
