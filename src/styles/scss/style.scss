@@ -24,6 +24,11 @@ blockquote {
     border-left: 4px solid #9dd4ff;
 }
 
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 #site-title {
     size: 1em;
     font-weight: 700;
@@ -44,8 +49,8 @@ blockquote {
 }
 
 .footer {
-	padding: 0.3em;
-	size: 1em;
+    padding: 0.3em;
+    size: 1em;
 }
 
 .content {
@@ -53,7 +58,8 @@ blockquote {
     box-sizing: border-box;
     height: calc(100vh - (1.6em * 3 ) - 2px);
 
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 
     background-color: #FFF;
     border-width: 1px;

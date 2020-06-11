@@ -24,7 +24,7 @@ class ProfilePage extends React.Component {
         
                 <h3><a href="https://groundpolis.app/@silverscat_3">groundpolis.app</a></h3>
                 <p>groundpolis.appアカウント。ハゲチカにウンコを投げ付けるためだけに作られたアカウンコ。</p>
-                <p style="font-size: small;">で、結局ハゲチカって何て呼べばいいの?</p>
+                <p style={{ fontSize: 'small'}}>で、結局ハゲチカって何て呼べばいいの?</p>
         
                 <h3><a href="https://misskey.io/@silverscat_3">misskey.io</a></h3>
                 <p>misskey.ioアカウント。あんまり使ってない。</p>
