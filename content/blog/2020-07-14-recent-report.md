@@ -36,4 +36,4 @@ https://groundpolis.app/@61231VCH41V
 フォローするとTLがとんでもないことになるのであまりおすすめしない。閑話休題。
 
 ## 最近初めたプロジェクト
-MisskeyのクソAPIにブチ切れてしまったので、
+**Misskeyの~~クソみたいな~~APIにブチ切れてしまったので**、MisskeyっぽいSNSを作ることにした。**Technopolis**である。
