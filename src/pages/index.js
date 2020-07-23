@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,7 +18,8 @@ class BlogIndex extends React.Component {
         <h1>銀猫さんのWebサイト</h1>
         <p>ようこそ、銀猫さんの<span style={{ textDecoration: 'line-through' }}>ホームページ</span>Webサイトへ!</p>
         <hr />
-
+        <Img fixed={data.cat.childImageSharp.fixed} />
+        <p>これはネコです。なんかトップページに置くものが無くて…</p>
       </Layout>
     )
   }
@@ -30,6 +32,13 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    },
+    cat:file(relativePath: {eq: "cat.webp"}) {
+      childImageSharp {
+        fixed(width: 480) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }
